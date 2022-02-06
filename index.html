@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Open+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Sticky notes</title>
+  </head>
+  <body>
+    <div class="modal-cont">
+      <div class="modal">
+        <textarea
+          name="text"
+          id="note"
+          cols="30"
+          rows="10"
+          class="text-area"
+          maxlength="150"
+          placeholder="Note..."
+        ></textarea>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="icon"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M6 18L18 6M6 6l12 12"
+          />
+        </svg>
+      </div>
+    </div>
+    <div class="container color">
+      <nav>
+        <h2>Sticky Notes</h2>
+        <button class="btn-add">Add Note</button>
+      </nav>
+      <section class="sticky-container">
+        <div class="all-stiky">
+          <!-- <div class="stiky"></div>
+          <div class="stiky"></div>
+          <div class="stiky"></div>
+          <div class="stiky"></div>
+          <div class="stiky"></div>
+          <div class="stiky"></div> -->
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
